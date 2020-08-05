@@ -1,0 +1,36 @@
+site_name: APTrust Preservation Services Architecture
+theme: material
+markdown_extensions:
+  - admonition
+  - codehilite
+repo_url:  https://github.com/APTrust/services-architecture
+nav:
+  - Home: index.md
+  - Services:
+      - Ingest:
+          - services/ingest/index.md
+          - services/ingest/bucket_reader.md
+          - services/ingest/pre_fetch.md
+          - services/ingest/validation.md
+          - services/ingest/reingest_check.md
+          - services/ingest/staging.md
+          - services/ingest/format_identification.md
+          - services/ingest/storage.md
+          - services/ingest/storage_validation.md
+          - services/ingest/metadata_recording.md
+          - services/ingest/cleanup.md
+      - services/fixity.md
+      - services/deletion.md
+      - services/restoration.md
+  - Scaling:
+      - scaling/index.md
+  - Components:
+      - components/overview.md
+      - components/receiving.md
+      - components/restoration.md
+      - components/preservation.md
+      - components/pharos.md
+      - components/rds.md
+      - components/microservices.md
+      - components/nsq.md
+      - components/redis.md
